@@ -26,7 +26,7 @@ namespace Notes
         {
             InitializeComponent();
           
-            MainPage = new NavigationPage(new NotesPage());
+            MainPage = new MyTabbedPage();
         }
         // ...
 
